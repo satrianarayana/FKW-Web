@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: #f5f4f4;
+  background: #573282;
 }
 
 p {
@@ -53,6 +53,12 @@ nav .logo {
 nav .nav-items {
   display: flex;
   gap: 50px;
+}
+
+.nav-link:hover {
+
+color: rgb(221, 221, 221);
+
 }
 
 .container {
@@ -181,185 +187,41 @@ section h2 {
 
 /* Tentang Kami */
 
-#tentang h3 {
-  font-size: 18px;
+#tentang {
+
+  padding-top: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(68,28,85,255) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+}
+#tentang h2 {
+
+  font-size: 30px;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #fda814 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
+#tentang p {
 
-#features .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
+  color: white;
+
 }
-
 /* Arsip */
 
-#arsip .content {
-  display: flex;
-  justify-content: space-between;
-  gap: 80px;
-}
 
-#arsip .left {
-  width: 360px;
-}
 
-#arsip .right {
-  flex: 1;
-  position: relative;
-}
 
-#arsip .left h2 {
-  text-align: left;
-  color: #000;
-}
-
-#arsip .quote-icon {
-  position: absolute;
-  top: -20px;
-  left: -50px;
-  opacity: 0.3;
-}
-
-#arsip .quote-icon img {
-  height: 60px;
-}
-
-#arsip .reviewer-info {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-#arsip .reviewer-info img {
-  height: 60px;
-}
-
-#arsip .reviewer-info .name {
-  font-weight: bold;
-}
-
-#arsip .reviewer-info .designation {
-  font-size: 14px;
-}
-
-#arsip {
-  position: relative;
-}
-
-.bg-element {
-  position: absolute;
-  height: 760px;
-  left: -50px;
-  right: -50px;
-  bottom: 0;
-  background: linear-gradient(90deg, #fdd7e8 0%, #fee5fa 100%);
-  z-index: -1;
-}
-
-#arsip .navigation-btns {
-  position: absolute;
-  right: 20px;
-  bottom: 40px;
-  display: flex;
-  gap: 2px;
-}
-
-#arsip .navigation-btns img {
-  height: 26px;
-}
-
-#arsip .prev-btn,
-#arsip .next-btn {
-  background: #fff;
-  display: flex;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-#arsip .prev-btn:hover,
-#arsip .next-btn:hover {
-  opacity: 1;
-}
-
-#arsip .testimonial-card {
-  opacity: 0;
-  transition: all 300ms ease;
-}
-
-#arsip .testimonial-card.active {
-  opacity: 1;
-}
-
-/* Pricing Section */
-
-#pricing .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-#pricing .plan {
-  background: #fff;
-  border-radius: 10px;
-  padding: 24px;
-}
-
-#pricing ul {
-  list-style: none;
-  padding: 0;
-}
-
-#pricing ul li {
-  margin: 16px 0;
-  line-height: 1.8;
-}
-
-#pricing .plan-name {
-  font-size: 30px;
-  margin: 0;
-}
-
-#pricing .plan-price {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#pricing .btn {
-  background: #000;
-  color: #fff;
-  padding: 8px 32px;
-  width: 100%;
-  margin-top: 24px;
-  display: inline-block;
-  border-radius: 10px;
-  transition: all 200ms ease;
-}
-
-#pricing .btn:hover {
-  transform: scale(1.03);
-}
-
-#pricing ul li .icon {
-  margin-right: 10px;
-}
-
-/* CTA */
-
-#cta .content {
-  max-width: 600px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-  padding-bottom: 32px;
-}
-
-#cta .content p {
-  text-align: center;
-  margin-top: -8px;
-  margin-bottom: 32px;
-}
 
 /* Footer */
 
