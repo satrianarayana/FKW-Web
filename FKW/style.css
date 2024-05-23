@@ -188,7 +188,7 @@ section h2 {
 /* Tentang Kami */
 
 #tentang {
-
+  margin-top: -30px;
   padding-top: 40px;
   background: linear-gradient(
     90deg,
@@ -200,6 +200,7 @@ section h2 {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+
 
 }
 #tentang h2 {
@@ -301,10 +302,6 @@ nav .menu-icon,
     display: none;
   }
 
-  body {
-    background: #fff;
-  }
-
   nav {
     width: calc(100% - 30px);
   }
@@ -390,10 +387,12 @@ nav .menu-icon,
     width: auto;
   }
 
-  /* Features section */
+  /* Tentang section */
 
-  #poto .content {
-    grid-template-columns: 1fr;
+  #tentang {
+    padding: 30px;
+    margin-top: -50px;
+    padding-top: 40px;
   }
 
   /* Testimonials */
