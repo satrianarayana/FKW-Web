@@ -52,7 +52,7 @@ nav .logo {
 
 nav .nav-items {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 .nav-link:hover {
@@ -189,7 +189,7 @@ section h2 {
 /* Tentang Kami */
 
 #tentang {
-  padding-top: 40px;
+  padding-top: 20px;
   background: #441C55;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -372,7 +372,7 @@ nav .menu-icon,
   #poto {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 0px;
 
 
   }
@@ -387,8 +387,8 @@ nav .menu-icon,
 
   #tentang {
     padding: 30px;
-    margin-top: -10px;
-    padding-top: 40px;
+    margin-top: -30px;
+    padding-top: 20px;
   }
 
   /* Testimonials */
