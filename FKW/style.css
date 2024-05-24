@@ -131,6 +131,7 @@ header .left p {
 .link-btn .btn-icon img {
   height: 36px;
   display: flex;
+  color: white;
 }
 
 .link-btn .btn-text div:first-child {
