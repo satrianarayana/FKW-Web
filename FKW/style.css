@@ -122,10 +122,8 @@ header .left p {
 }
 
 .link-btn:hover {
-
   background: #51235a;
   ;
-
 }
 
 .link-btn .btn-icon img {
@@ -196,11 +194,9 @@ section h2 {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-
-
 }
-#tentang h2 {
 
+#tentang h2 {
   font-size: 30px;
   margin-bottom: 30px;
   background: linear-gradient(90deg, #fda814 0%, #ffffff 100%);
@@ -210,15 +206,150 @@ section h2 {
 }
 
 #tentang p {
-
   color: white;
-
 }
-/* Arsip */
+/* Galeri */
 
+#galeri {
+    padding-top: 30px;
+    width: 100%;
+}
 
+#galeri h2 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  background: linear-gradient(90deg, #fda814 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
+#galeri h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  background: white;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper .slide-button:hover {
+  background: rgb(220, 220, 220);
+}
+
+.slider-wrapper .slide-button {
+  top: 50%;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  color: #000;
+  background: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  outline: none;
+  border: none;
+  border-color: white;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.slider-wrapper .slide-button#prev-slide {
+  left: -50px;
+  display: none;
+}
+
+.slider-wrapper .slide-button#next-slide {
+  right: -50px;
+}
+
+.slider-wrapper .album-list {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(11, 1fr);
+  overflow-x: auto;
+  font-size: 0;
+  scrollbar-width: none;
+  margin-bottom: 25px;
+}
+
+.slider-wrapper .album-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper .album-list .album-item {
+  width: 270px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.slider-scrollbar {
+  height: 24px;
+  width: 100%;
+  align-items: center;  
+  display: flex;
+}
+
+.slider-scrollbar .scrollbar-track {
+  height: 2px;
+  width: 100%;
+  background: #441C55;
+  position: relative;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: #fff;
+  border-radius: inherit;
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  -ms-border-radius: inherit;
+  -o-border-radius: inherit;
+  cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 6px;
+  top: -1px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: -10px;
+bottom: -10px;
+}
+
+#yt-video {
+  margin: auto;
+  height: 157px;
+  width: 280px;
+}
 
 /* Footer */
 
@@ -391,27 +522,24 @@ nav .menu-icon,
     padding-top: 20px;
   }
 
-  /* Testimonials */
+  /* Galeri */
 
-  #testimonials .content {
-    flex-direction: column;
+  .slider-wrapper .slide-button {
+    display: none!important;
   }
 
-  #testimonials .content .left {
-    width: 100%;
+  .slider-wrapper .album-list {
+    gap: 10px;
+    margin-bottom: 15px;
   }
 
-  #testimonials .left h2::after {
-    left: 0;
-    transform: translateX(0);
+  .slider-wrapper .album-list .album-item {
+    width: 270px;
+    height: 180px;
   }
 
-  #testimonials .left h2 {
-    margin-bottom: 0;
-  }
-
-  #testimonials .right .quote-icon {
-    left: -10px;
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
   }
 
   .bg-element {
@@ -419,16 +547,6 @@ nav .menu-icon,
     height: 1900px;
     left: -30px;
     right: -30px;
-  }
-
-  /* Pricing Section */
-
-  #pricing .content {
-    grid-template-columns: 1fr;
-  }
-
-  #pricing .plan {
-    padding-inline: 0;
   }
 
   /* Footer */

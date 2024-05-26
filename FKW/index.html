@@ -11,7 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <nav>
@@ -19,7 +21,7 @@
       <div class="nav-items">
         <a class="nav-link" href="#beranda">Beranda</a>
         <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
-        <a class="nav-link" href="#cta">Arsip</a>
+        <a class="nav-link" href="#galeri">Galeri</a>
       </div>
 
       <div class="menu-icon">
@@ -30,7 +32,7 @@
     <div class="mobile-nav-menu">
       <a class="nav-link" href="#beranda">Beranda</a>
       <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
-      <a class="nav-link" href="#cta">Arsip</a>
+      <a class="nav-link" href="#galeri">Galeri</a>
     </div>
 
     <header>
@@ -85,7 +87,7 @@
       <section id="tentang">
         <h2>Tentang Kami</h2>
         <div class="left">
-          <p>Festival Karma Wairagya merupakan festival yang diadakan setahun sekali untuk memeriahkan hari ulang tahun SMA Negeri 9 Denpasar. 
+          <p>Festival Karma Wairagya (FKW) merupakan festival yang diadakan setahun sekali untuk memeriahkan hari ulang tahun SMA Negeri 9 Denpasar. 
             Tujuan lain diadakannya festival ini yaitu untuk meningkatkan kemampuan siswa dan siswi untuk berkreativitas, melestarikan dan menonjolkan nilai
             nilai budaya, serta memberikan kesempatan menunjukkan bakat bagi siswa dan siswi SMA Negeri 9 Denpasar untuk menjadi penampil acara pada puncak
             acara Festival Karma Wairagya. Festival ini pertama kali dilaksanakan pada tahun 2022 untuk memeriahkan HUT SMA Negeri 9 Denpasar yang ke-2. 
@@ -94,9 +96,34 @@
         </div>
       </section>
 
-      <section id="arsip">
-        <div class="content">
+    <div class="container" id="galeri">
+      <section id="gallery">
+        <h2>Galeri FKW</h2>
+        <h4>2022</h4>
+        <div class="slider-wrapper">
+          <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+          <div class="album-list">
+            <video autoplay muted controls id="yt-video" src="/videos/2022.mp4" alt= "itm-1" class="album-item"></video>
+            <img src="images/Foto.png" alt="itm-2" class="album-item">
+            <img src="images/Foto.png" alt="itm-3" class="album-item">
+            <img src="images/Foto.png" alt="itm-4" class="album-item">
+            <img src="images/Foto.png" alt="itm-5" class="album-item">
+            <img src="images/Foto.png" alt="itm-6" class="album-item">
+            <img src="images/Foto.png" alt="itm-7" class="album-item">
+            <img src="images/Foto.png" alt="itm-8" class="album-item">
+            <img src="images/Foto.png" alt="itm-9" class="album-item">
+            <img src="images/Foto.png" alt="itm-10" class="album-item">
+            <img src="images/Foto.png" alt="itm-11" class="album-item">
+          </div>
+          <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
         </div>
+        <div class="slider-scrollbar">
+          <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+          </div>
+        </div>
+      </section>
+    </div>
     </div>
 
     <footer>
