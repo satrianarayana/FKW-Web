@@ -90,7 +90,7 @@ h1 {
   font-size: 50px;
   line-height: 130%;
   margin: 0;
-  background: linear-gradient(90deg, #fff 0%, #ffffff 100%);
+  background: linear-gradient(90deg, #ffb941 0%, #ffb941 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -179,42 +179,73 @@ section h2 {
 
 #poto .pic {
   display: flex;
-  gap: 55px;
+  gap: 40px;
   justify-content: center;
-  height: 100px;
+  height: 115px;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
 
 /* Tentang Kami */
 
+.hp {
+  display: none;
+}
+
+#trabaju {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: -50px;
+  padding-bottom: 30px;
+}
+
+#transisi {
+  height: 300px;
+  display: flex;
+  pointer-events: none;
+  padding-right: 50px;
+}
+
+#baju {
+  height: 500px;
+}
+
 #tentang- {
   padding-top: 10px;
 }
 
 #tentang {
-  margin-inline: auto;
-  padding-top: 20px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-#tentang h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-  background: linear-gradient(90deg, #fff 0%, #fff 100%); 
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 0px;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  padding-bottom: 0px;
 }
 
 #tentang p {
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: left;
   max-width: 1100px;
   margin-inline: auto;
+}
+
+#tentang .left {
+
+  display: flex;
+  height: 450px;
+
+}
+
+#tentang .right {
+  line-height: 200%;
+  padding-left: 50px;
 }
 /* Galeri */
 
@@ -222,13 +253,13 @@ section h2 {
     padding-top: 30px;
     width: 90%;
     margin-inline: auto;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 #galeri h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  background: linear-gradient(90deg, #fff 0%, #fff 100%);
+  font-size: 40px;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #ffb941 0%, #ffb941 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -237,7 +268,7 @@ section h2 {
 #galeri h4 {
   font-size: 15px;
   margin-bottom: 5px;
-  background: white;
+  background: #fff;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -596,16 +627,28 @@ nav .menu-icon,
 
   h1 {
     font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  p{
+    text-align: justify;
+    padding-bottom: 10px;
   }
 
   .buttons {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .link-btn {
+    width: 300px;
+    margin: auto;
+    align-items: center;
   }
 
   .link-btn .btn-icon {
-
     height: 40px;
-
   }
 
   section h2 {
@@ -627,26 +670,86 @@ nav .menu-icon,
   /* Poto section */
 
   #poto {
-    padding-top: 20px;
+    padding-top:20px;
     padding-bottom: 20px;
     margin-top: 0px;
-  }
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
 
   #poto .pic {
-    gap: 10px;
-    height: 35px;
+    gap: 15px;
+    height: 40px;
     width: auto;
   }
 
   /* Tentang section */
 
+  .hp {
+    display: flex;
+  }
+
+  #hp2 {
+    margin: auto;
+    height: 400px;
+    margin-top: -40px;
+  }
+
+  #trabaju {
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  
+  #transisi {
+    height: 200px;
+    display: flex;
+    pointer-events: none;
+    margin: auto;
+    padding-right: 0px;
+  }
+  
+  #baju {
+    padding-top: 10px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+  }
+
+  #tentang- {
+    padding-top: 0px;
+  }
+
   #tentang {
     padding: 30px;
     margin-top: -30px;
-    padding-top: 20px;
+    align-items: baseline;
+  }
+
+  #tentang p {
+    text-align: justify;
+  }
+
+  #tentang .left {
+    display: none;
+  }
+  
+  #tentang .right {
+    line-height: 200%;
+    padding-left: 0px;
   }
 
   /* Galeri */
+
+  #galeri {
+    padding-top: 100px;
+  }
 
   .slider-wrapper .slide-button {
     display: none!important;
@@ -666,6 +769,25 @@ nav .menu-icon,
     width: 20%;
   }
 
+  .slider-wrapper2 .slide-button2 {
+    display: none!important;
+  }
+
+  .slider-wrapper2 .album-list2 {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .slider-wrapper2 .album-list2 .album-item2 {
+    width: 270px;
+    height: 180px;
+  }
+
+  .slider-scrollbar2 .scrollbar-thumb2 {
+    width: 20%;
+  }
+
+
   .bg-element {
     position: absolute;
     height: 1900px;
@@ -678,34 +800,48 @@ nav .menu-icon,
   footer .content {
     flex-direction: column;
   }
+  
+  footer .left {
+    margin: auto;
+    height: 200px;
+  }
 
   footer .right {
     flex-direction: column;
     gap: 40px;
-    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
   }
 
   footer h3 {
     margin-top: 0;
+    text-align: center;
   }
   
   footer ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   
   footer ul li {
+    text-align: center;
     margin: 8px 0;
   }
 
   footer .copyright {
+    text-align: center;
     flex-direction: column;
+  }
+
+  footer p {
+    text-align: center;
   }
 
   footer .socials {
     display: flex;
     gap: 40px;
+    padding-right: 0px;
   }
   
   footer .socials img {
