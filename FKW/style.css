@@ -6,6 +6,30 @@ html {
   scroll-behavior: smooth;
 }
 
+
+#pre-loader {
+  background-size: 10%;
+  background: #4e276a url(images/loader.svg) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+@keyframes transitionIn {
+
+  from {
+      opacity: 1;
+      transform: translateY(0);
+}
+
+  to {
+    opacity: 0;
+    transform: translateY(-10deg);
+    display: none;
+}
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -170,9 +194,6 @@ section h2 {
   padding-top: 30px;
   margin-top: -90px;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   max-width: 1100px;
   margin-inline: auto;
 }
@@ -294,18 +315,10 @@ section h2 {
   font-size: 1.3rem;
   cursor: pointer;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   outline: none;
   border: none;
   border-color: white;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
 }
 
 .slider-wrapper .slide-button#prev-slide {
@@ -351,9 +364,6 @@ section h2 {
   position: relative;
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .slider-scrollbar:hover .scrollbar-track {
@@ -367,9 +377,6 @@ height: 4px;
   background: #fff;
   border-radius: inherit;
   -webkit-border-radius: inherit;
-  -moz-border-radius: inherit;
-  -ms-border-radius: inherit;
-  -o-border-radius: inherit;
   cursor: grab;
 }
 
@@ -409,17 +416,11 @@ bottom: -10px;
   cursor: pointer;
   border-radius: 50%;
   -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   outline: none;
   border: none;
   border-color: white;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
 }
 
 .slider-wrapper2 .slide-button2#prev-slide2 {
@@ -465,9 +466,6 @@ bottom: -10px;
   position: relative;
   border-radius: 4px;
   -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .slider-scrollbar2:hover .scrollbar-track2 {
@@ -481,9 +479,6 @@ height: 4px;
   background: #fff;
   border-radius: inherit;
   -webkit-border-radius: inherit;
-  -moz-border-radius: inherit;
-  -ms-border-radius: inherit;
-  -o-border-radius: inherit;
   cursor: grab;
 }
 
@@ -675,9 +670,6 @@ nav .menu-icon,
     margin-top: 0px;
     border-radius: 0px;
     -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -ms-border-radius: 0px;
-    -o-border-radius: 0px;
 }
 
   #poto .pic {
@@ -809,13 +801,13 @@ nav .menu-icon,
   footer .right {
     flex-direction: column;
     gap: 40px;
-    text-align: center;
-    padding-top: 20px;
+    text-align: justify;
+    padding-top: 30px;
   }
 
   footer h3 {
     margin-top: 0;
-    text-align: center;
+    text-align: justify;
   }
   
   footer ul {
@@ -825,7 +817,7 @@ nav .menu-icon,
   }
   
   footer ul li {
-    text-align: center;
+    text-align: justify;
     margin: 8px 0;
   }
 
@@ -835,7 +827,7 @@ nav .menu-icon,
   }
 
   footer p {
-    text-align: center;
+    text-align: justify;
   }
 
   footer .socials {
@@ -874,4 +866,14 @@ nav .menu-icon,
     pointer-events: auto;
     transform: translateY(0);
   }
+
+  #pre-loader {
+    background-size: 5%;
+    background: #4e276a url(images/loader.svg) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
 }
