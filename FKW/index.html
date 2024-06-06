@@ -43,7 +43,7 @@
       <div class="container" id="beranda">
         <section>
         <div class="left">
-          <img src="images/FKWLogo .png" alt="Logo FKW" loading="lazy"/>
+          <img src="images/FKWLogo .png" alt="Logo FKW" loading="lazy" id="logoheader"/>
           <h1>Festival Karma Wairagya</h1>
           <p>
             Festival Karma Wairagya merupakan sebuah festival yang diadakan setiap tahun untuk memeriahkan hari ulang tahun SMA Negeri 9 Denpasar.
@@ -55,7 +55,7 @@
                 <img src="images/instagram-logo.svg" alt="" />
               </div>
               <div class="btn-text">
-                <div>Instagram</div>
+                <div id="textbtn">Instagram</div>
               </div>
             </a>
 
@@ -64,14 +64,14 @@
                 <img src="images/youtube-logo.svg" alt="" />
               </div>
               <div class="btn-text">
-                <div>Youtube</div>
+                <div id="textbtn">Youtube</div>
               </div>
             </a>
           </div>
         </div>
       </section>
         <div class="right">
-          <img src="images/FKWLogo .png" alt="" />
+          <img src="images/FKWLogo .png" alt="FKW Logo" loading="lazy"  id="headerlogo" />
         </div>
       </div>
     </header>
@@ -80,11 +80,11 @@
       <section id="poto">
         <div class="content">
           <div class="pic">
-            <img src="images/Foto1.JPG" loading="lazy"/>
-            <img src="images/Foto2.JPG" loading="lazy"/>
-            <img src="images/Foto3.JPG" loading="lazy"/>
-            <img src="images/Foto4.JPG" loading="lazy"/>
-            <img src="images/Foto5.JPG" loading="lazy"/>
+            <img src="images/Foto1.JPG" loading="lazy" id="potoh"/>
+            <img src="images/Foto2.JPG" loading="lazy" id="potoh"/>
+            <img src="images/Foto3.JPG" loading="lazy" id="potoh"/>
+            <img src="images/Foto4.JPG" loading="lazy" id="potoh"/>
+            <img src="images/Foto5.JPG" loading="lazy" id="potoh"/>
           </div>
         </div>
       </section>
@@ -103,8 +103,8 @@
       </section>
 
         <div id="trabaju">
-          <video autoplay loop muted controls id="transisi" src="videos/transisi.mp4"></video>
-          <img src="images/desainbaju.png" id="baju" loading="lazy">
+          <div class="transisi"><video autoplay loop muted controls id="transisi" src="videos/transisi.mp4"></video></div>
+          <div class="baju"><img src="images/desainbaju.png" id="baju" loading="lazy"></div>
         </div>
 
       <div id="galeri">
@@ -168,7 +168,7 @@
       <div id="contact" class="container">
         <div class="content">
           <div class="left">
-            <img src="images/FKWLogo .png" height="200px" loading="lazy">
+            <img src="images/FKWLogo .png" loading="lazy" id="footerlogo">
           </div>
 
           <div class="right">
@@ -193,7 +193,7 @@
                 <li>Jl. W.R Supratman No. 255</li>
                 <li>Desa Kertalangu, Kesiman,</li>
                 <li>Denpasar Timur, Bali, Indonesia. 80237</li>
-                smansia9dps@gmail.com</li>
+                <li>smansia9dps@gmail.com</li>
               </ul>
             </div>
           </div>
@@ -231,5 +231,6 @@ $(window).on('beforeunload', function(){
     $(window).scrollTop(0);
 });
     </script>
+
   </body>
 </html>

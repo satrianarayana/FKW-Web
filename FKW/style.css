@@ -107,7 +107,7 @@ header .container {
 }
 
 header .left {
-  max-width: 500px;
+  max-width: 700px;
 }
 
 h1 {
@@ -198,11 +198,16 @@ section h2 {
   margin-inline: auto;
 }
 
+#potoh {
+  width: 100%;
+}
+
 #poto .pic {
   display: flex;
-  gap: 40px;
+  gap: 43px;
   justify-content: center;
-  height: 115px;
+  width: 16%;
+  margin: auto;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
@@ -214,36 +219,50 @@ section h2 {
 }
 
 #trabaju {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
   display: flex;
-  max-width: 1100px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
   margin: auto;
-  margin-top: -50px;
+  margin-top: 0px;
   padding-bottom: 30px;
+}
+.transisi {
+  width: 60%;
 }
 
 #transisi {
-  height: 300px;
+  width: 100%;
   display: flex;
   pointer-events: none;
   padding-right: 50px;
 }
 
+.baju {
+  width: 40%;
+}
+
 #baju {
-  height: 500px;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+#tentang-kami {
+  margin-top: 5px;
 }
 
 #tentang- {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 #tentang {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 0px;
   display: flex;
   max-width: 1100px;
   margin: auto;
@@ -271,7 +290,7 @@ section h2 {
 /* Galeri */
 
 #galeri {
-    padding-top: 30px;
+    padding-top: 100px;
     width: 90%;
     margin-inline: auto;
     padding-bottom: 100px;
@@ -515,6 +534,10 @@ footer a {
   color: #fff;
 }
 
+footer p {
+  padding-left: 20px;
+}
+
 footer .content {
   display: flex;
   justify-content: space-between;
@@ -522,11 +545,14 @@ footer .content {
 
 footer .left {
 margin-bottom: 10px;
+width: 25%;
+min-width: 170px;
 }
 
 footer .right {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 footer h3 {
@@ -545,6 +571,10 @@ footer ul li {
 
 footer a:hover {
   color: rgb(221, 221, 221);
+}
+
+#footerlogo {
+  width: 100%;
 }
 
 footer .copyright {
@@ -605,12 +635,20 @@ nav .menu-icon,
     padding-top: 80px;
   }
 
+    #beranda {
+    width: 100%;
+  }
+
   header .right img {
     display: none;
   }
+  
+  #logoheader {
+    width: 90%;
+    max-width: 350px;
+  }
 
   header .left img {
-    height: 250px;
     display: flex; 
     margin: auto;
     margin-bottom: 30px;
@@ -632,18 +670,32 @@ nav .menu-icon,
   }
 
   .buttons {
-    flex-direction: column;
+    max-width: 90%;
     align-items: center;
+    gap: 20px;
+    margin: auto;
   }
 
   .link-btn {
-    width: 300px;
-    margin: auto;
+    display: flex;
+    gap: 0px;
+    width: 90%;
     align-items: center;
-  }
+    margin: auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 
   .link-btn .btn-icon {
     height: 40px;
+    margin: auto;
+  }
+
+  #textbtn {
+    display: none;
   }
 
   section h2 {
@@ -673,9 +725,7 @@ nav .menu-icon,
 }
 
   #poto .pic {
-    gap: 15px;
-    height: 40px;
-    width: auto;
+    gap: 10px;
   }
 
   /* Tentang section */
@@ -686,32 +736,39 @@ nav .menu-icon,
 
   #hp2 {
     margin: auto;
-    height: 400px;
+    width: 80%;
+    max-width: 350px;
     margin-top: -40px;
   }
 
   #trabaju {
-
+    margin-left: auto;
+    padding-left: 0px;
     align-items: center;
-    display: grid;
-    grid-template-columns: auto;
-    margin: auto;
     padding-bottom: 30px;
-  }
-  
-  #transisi {
-    height: 200px;
-    display: flex;
-    pointer-events: none;
-    margin: auto;
+    max-width: 90%;
     padding-right: 0px;
   }
   
-  #baju {
-    padding-top: 10px;
-    height: 300px;
+  #transisi {
+    width: 100%;
     margin: auto;
-    display: flex;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .transisi {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .baju {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  #baju {
+    width: 100%;
   }
 
   #tentang- {
@@ -740,7 +797,7 @@ nav .menu-icon,
   /* Galeri */
 
   #galeri {
-    padding-top: 100px;
+    padding-top: 10px;
   }
 
   .slider-wrapper .slide-button {
@@ -795,19 +852,26 @@ nav .menu-icon,
   
   footer .left {
     margin: auto;
-    height: 200px;
+    width: 70%;
+    padding-top: 20px;
+    max-width: 200px;
+  }
+
+  #footerlogo {
+    width: 100%;
   }
 
   footer .right {
     flex-direction: column;
     gap: 40px;
-    text-align: justify;
+    text-align: left;
     padding-top: 30px;
+    display: block;
   }
 
   footer h3 {
     margin-top: 0;
-    text-align: justify;
+    text-align: left;
   }
   
   footer ul {
@@ -817,17 +881,18 @@ nav .menu-icon,
   }
   
   footer ul li {
-    text-align: justify;
+    text-align: left;
     margin: 8px 0;
   }
 
   footer .copyright {
-    text-align: center;
+    text-align: left;
     flex-direction: column;
   }
 
   footer p {
-    text-align: justify;
+    text-align: left;
+    padding-left: 0;
   }
 
   footer .socials {
@@ -846,7 +911,7 @@ nav .menu-icon,
     position: fixed;
     right: 32px;
     top: 100px;
-    background: #16091b;
+    background: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
     padding: 8px 16px;
@@ -875,5 +940,179 @@ nav .menu-icon,
     position: fixed;
     z-index: 100;
   }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+  nav {
+    width: 90%;
+    left: 50%;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  header p {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 10px; 
+  }
+
+  .buttons {
+    align-items: center;
+    margin: auto;
+  }
+
+  #textbtn{
+    margin: auto;
+  }
+
+  .link-btn {
+    height: 50px;
+    display: inline;
+    text-align: center;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 18px;
+}
+
+.link-btn .btn-icon {
+  height: 40px;
+  display: none;
+}
+
+  header .right img {
+    display: none;
+  }
+
+  #logoheader {
+    width: 70%;
+  }
+
+  header .left img {
+    display: flex; 
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  header .container {
+    flex-direction: column;
+  }
+
+  header {
+    max-height: fit-content;
+    height: fit-content;
+    padding-top: 80px;
+  }
+
+  #beranda {
+    width: 100%;
+  }
+   /* Poto section */
+
+  #poto {
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+  #poto .pic {
+    gap: 33px;
+  }
+
+  .hp {
+    display: flex;
+  }
+
+  #hp2 {
+    margin: auto;
+    width: 40%;
+    max-width: 300px;
+    min-width: 300px;
+    margin-top: -40px;
+  }
+
+  #tentang- {
+    padding-top: 0px;
+  }
+
+  #tentang {
+    padding: 30px;
+    margin-top: -30px;
+    align-items: baseline;
+  }
+
+  #tentang p {
+    text-align: justify;
+  }
+
+  #tentang .left {
+    display: none;
+  }
+  
+  #tentang .right {
+    line-height: 200%;
+    padding-left: 0px;
+  }
+
+  #galeri {
+    padding-top: 10px;
+    width: auto;
+  }
+
+  .slider-wrapper .slide-button {
+    display: none!important;
+  }
+
+  .slider-wrapper .album-list {
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+
+  .slider-wrapper .album-list .album-item {
+    width: 270px;
+    height: 180px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
+  }
+
+  .slider-wrapper2 .slide-button2 {
+    display: none!important;
+  }
+
+  .slider-wrapper2 .album-list2 {
+    gap: 20px;
+    margin-bottom: 15px;
+  }
+
+  .slider-wrapper2 .album-list2 .album-item2 {
+    width: 270px;
+    height: 180px;
+  }
+
+  .slider-scrollbar2 .scrollbar-thumb2 {
+    width: 20%;
+  }
+
+
 
 }
