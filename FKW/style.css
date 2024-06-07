@@ -38,7 +38,7 @@ body {
 
 p {
   line-height: 180%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 a {
@@ -141,7 +141,7 @@ header .left p {
   gap: 16px;
   padding: 8px 16px;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 16px;
   width: 210px;
 }
 
@@ -293,15 +293,15 @@ section h2 {
 /* Galeri */
 
 #galeri {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 90%;
     margin-inline: auto;
     padding-bottom: 100px;
 }
 
 #galeri h2 {
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 35px;
+  margin-bottom: 50px;
   background: linear-gradient(90deg, #ffb941 0%, #ffb941 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -309,7 +309,7 @@ section h2 {
 }
 
 #galeri h4 {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 5px;
   background: #fff;
   background-clip: text;
@@ -670,6 +670,15 @@ nav .menu-icon,
   p{
     text-align: justify;
     padding-bottom: 10px;
+    font-size: 14px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  footer li {
+    font-size: 14px;
   }
 
   .buttons {
@@ -709,7 +718,7 @@ nav .menu-icon,
   section h2::after {
     content: "";
     position: absolute;
-    background: #000;
+    background: #fff;
     width: 30px;
     height: 2px;
     bottom: 0;
@@ -889,7 +898,7 @@ nav .menu-icon,
   }
 
   footer .copyright {
-    text-align: left;
+    text-align: center;
     flex-direction: column;
   }
 
@@ -966,7 +975,7 @@ nav .menu-icon,
 
   p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 10px; 
   }
 

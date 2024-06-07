@@ -11,7 +11,8 @@
   .bg-photo-container,
   .bg-photo-overlay,
   .centered-top-container,
-  .collapsed-header .centered-top-placeholder {
+  .collapsed-header .centered-top-placeholder
+  .sidebar-container{
   	display: none;
   }
   
@@ -53,10 +54,6 @@
     max-width: unset;
   }
   
-  html, body {
-  overflow-x: hidden;
-}
-  
     div.widget.Blog .blog-posts .post-outer-container {
     	padding: 0;
     }
@@ -77,6 +74,14 @@
   
   .post-body footer h3 {color: #fff;}
   
+    .sidebar-container {
+      display: none;
+  }
+  
+  body.item-view .centered-top {
+        margin-bottom: 5px;
+        display: none;
+    }
   
 /* Custom Style */ 
   
@@ -121,7 +126,7 @@ body {
 
 p {
   line-height: 180%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 a {
@@ -233,7 +238,7 @@ header.custom-header .left img {
   gap: 16px;
   padding: 8px 16px;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 16px;
   width: 210px;
 }
 
@@ -394,7 +399,7 @@ section h2 {
 }
 
 #galeri h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 40px;
   background: linear-gradient(90deg, #ffb941 0%, #ffb941 100%);
   background-clip: text;
@@ -403,7 +408,7 @@ section h2 {
 }
 
 #galeri h4 {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 5px;
   background: #fff;
   background-clip: text;
@@ -764,6 +769,15 @@ nav .menu-icon,
   p{
     text-align: justify;
     padding-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  header p {
+  	font-size:16px;
+  }
+  
+  footer li {
+  	font-size: 14px;
   }
 
   .buttons {
@@ -801,9 +815,9 @@ nav .menu-icon,
   }
 
   section h2::after {
-    content: "";
+    content:"";
     position: absolute;
-    background: #000;
+    background: #fff;
     width: 30px;
     height: 2px;
     bottom: 0;
@@ -983,7 +997,7 @@ nav .menu-icon,
   }
 
   footer .copyright {
-    text-align: left;
+    text-align: center;
     flex-direction: column;
   }
 
@@ -1060,7 +1074,7 @@ nav .menu-icon,
 
   p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 10px; 
   }
 
@@ -1216,8 +1230,6 @@ nav .menu-icon,
   
   
 </style>
-
-
 
 
 
@@ -1411,7 +1423,7 @@ nav .menu-icon,
         </div>
 
         <div class="copyright">
-          <p>Designed by Tim Industri Digital FKW © 2024</p>
+          <p>Powered by Tim Industri Digital FKW © 2024</p>
           <div class="socials">
             <a href="https://www.instagram.com/festivalkarmawairagya" target="_blank"><img src="images/instagram-logo.svg" alt="" /></a>
             <a href="https://www.youtube.com/@festivalkarmawairagya" target="_blank"><img src="images/youtube-logo.svg" alt="" /></a>
