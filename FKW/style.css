@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -6,10 +7,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
 #pre-loader {
   background-size: 10%;
-  background: #4e276a url(images/loader.svg) no-repeat center center;
+  background: #4e276a url(https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/loader_jpigvg.svg) no-repeat center center;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -207,6 +207,7 @@ section h2 {
   gap: 43px;
   justify-content: center;
   width: 16%;
+  max-width: 1080px;
   margin: auto;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -232,6 +233,7 @@ section h2 {
 }
 .transisi {
   width: 60%;
+  max-width: 1280px;
 }
 
 #transisi {
@@ -243,6 +245,7 @@ section h2 {
 
 .baju {
   width: 40%;
+  max-width: 1080px;
 }
 
 #baju {
@@ -934,7 +937,7 @@ nav .menu-icon,
 
   #pre-loader {
     background-size: 5%;
-    background: #4e276a url(images/loader.svg) no-repeat center center;
+    background: #4e276a url(https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/loader_jpigvg.svg) no-repeat center center;
     height: 100%;
     width: 100%;
     position: fixed;
