@@ -120,6 +120,11 @@ html {
   z-index: 9999;
 }
 
+@font-face {
+  font-family: MuaraRough;
+  src: url(https://res.cloudinary.com/dcmo2r3d9/raw/upload/v1718001021/MUARA_ROUGH_DEMO_dg8ixp.ttf);
+}
+  
 @keyframes transitionIn {
 
   from {
@@ -216,14 +221,19 @@ header.custom-header .left {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 65px;
   line-height: 130%;
   margin: 0;
-  background: linear-gradient(90deg, #ffb941 0%, #ffb941 100%);
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  font-family: MuaraRough, sans-serif;
+  font-style: underline;
+  text-decoration: underline white 3px;
+  text-underline-position: under  ;
 }
+
 
 header.custom-header .left p {
   background: linear-gradient(90deg, #fff 0%, #fff 100%);
@@ -764,6 +774,7 @@ nav .menu-icon,
   #logoheader {
     width: 90%;
     max-width: 350px;
+    min-width: 300px;
   }
 
  #logoheader {
@@ -777,7 +788,7 @@ nav .menu-icon,
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 10px;
   }
@@ -1079,7 +1090,7 @@ nav .menu-icon,
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
     padding-bottom: 10px;
   }
