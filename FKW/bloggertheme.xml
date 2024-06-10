@@ -83,6 +83,22 @@
         display: none;
     }
   
+  .page {
+	height:0%;
+  }
+  
+  .page_body {
+  	height:0;
+    margin-left:0;
+  }
+  
+  .blogger-clickTrap.singleton-element {
+   display: none; 
+  }
+  
+  .article.post-outer-container, #Blog1 {height:0;}
+  
+  
 /* Custom Style */ 
   
   
@@ -101,7 +117,7 @@ html {
   height: 100vh;
   width: 100%;
   position: fixed;
-  z-index: 100;
+  z-index: 9999;
 }
 
 @keyframes transitionIn {
