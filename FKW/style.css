@@ -1127,6 +1127,11 @@ nav .menu-icon,
     margin-bottom: 30px;
     margin-top: 5px;
   }
+
+  .heading-bazaar{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -1311,5 +1316,9 @@ nav .menu-icon,
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     padding-bottom: 50px;
   } 
+
+  .heading-bazaar{
+    margin-bottom: 0px;
+  }
 
 }

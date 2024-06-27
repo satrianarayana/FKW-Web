@@ -1239,6 +1239,11 @@ nav .menu-icon,
     margin-bottom: 30px;
     margin-top: 5px;
   }
+  
+    .heading-bazaar{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
 
 }
 
@@ -1425,7 +1430,9 @@ nav .menu-icon,
     padding-bottom: 50px;
   } 
 
-
+  .heading-bazaar{
+    margin-bottom: 0px;
+  }
 
 }
   
