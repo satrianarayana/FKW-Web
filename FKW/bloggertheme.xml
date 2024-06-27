@@ -393,7 +393,7 @@ section h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   display: flex;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
   padding-bottom: 0px;
 }
@@ -422,7 +422,6 @@ section h2 {
     padding-top: 100px;
     width: 90%;
     margin-inline: auto;
-    padding-bottom: 100px;
 }
 
 #galeri h2 {
@@ -649,6 +648,119 @@ bottom: -10px;
   margin: auto;
   height: 157px;
   width: 280px;
+}
+  
+/* Menu Bazaar */
+
+#bazaar {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.heading-bazaar {
+  margin-bottom: 30px;
+  padding-top: 50px ;
+  padding-bottom: 20px;
+  grid-column: 1/-1;
+  text-align: center;
+  font-size: 20px;
+  background: linear-gradient(90deg, #ffb941 0%, #ffb941 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#menu-bazaar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  grid-gap: 20px 30px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.food-items{
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  transition: .2s ease-in-out;
+}
+
+.food-items img {
+  position: relative;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  cursor: pointer;
+}
+
+.details {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);;
+  padding: 15px 20px;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap: 15px;
+  border-radius: 0 0 15px 15px;
+  -webkit-border-radius: 0 0 15px 15px;
+  -moz-border-radius: 0 0 15px 15px;
+  -ms-border-radius: 0 0 15px 15px;
+  -o-border-radius: 0 0 15px 15px;
+}
+
+.details-sub {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.details-sub2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  bottom: 0;
+  position: absolute;
+  padding-top: 30px;
+}
+
+.details-sub3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.details-sub>h5 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0px;
+  color: white;
+}
+
+.details-sub2>h4 {
+  font-weight: 300;
+  font-size: 15px;
+  margin: 0 0px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.details-sub3>h4 {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0 0px;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+
+.details>p{
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: stretch;
+  margin-bottom: 40px;
+  margin-top: 5px;
 }
 
 /* Footer */
@@ -1079,6 +1191,54 @@ nav .menu-icon,
     position: fixed;
     z-index: 100;
   }
+  
+    .heading-bazaar{
+    -webkit-text-fill-color: #ffb941;
+  }
+
+  .food-items img {
+
+  }
+  
+  #menu-bazaar {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-gap: 20px 20px;
+  }
+
+  .details-sub>h5 {
+    font-weight: 510;
+    font-size: 17px;
+}
+
+  .details-sub2>h4 {
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0 0px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .details-sub3>h4 {
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0 0px;
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 20px;
+  }
+  
+  
+  .details>p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
 
 }
 
@@ -1251,6 +1411,19 @@ nav .menu-icon,
   .slider-scrollbar2 .scrollbar-thumb2 {
     width: 20%;
   }
+  
+    /* Menu Bazaar */
+
+  .food-items {
+    width: 90%;
+    margin: auto;
+  }
+
+  section#menu-bazaar{
+    grid-gap: 20px 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-bottom: 50px;
+  } 
 
 
 
@@ -1324,7 +1497,7 @@ nav .menu-icon,
         </div>
       </section>
         <div class="right">
-          <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/FKWLogo_gmqquv.webp" alt="FKW Logo" loading="lazy"  id="headerlogo" />
+          <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719480246/FKWLogoA_t1s4lx.webp" alt="FKW Logo" loading="lazy"  id="headerlogo" />
         </div>
       </div>
     </header>
@@ -1413,6 +1586,156 @@ nav .menu-icon,
 
           <h4>2024 (Coming Soon)</h4>
 
+        </section>
+      </div>
+      <div id="bazaar">
+        <section id="menu-bazaar">
+          <div class="heading-bazaar">
+            <h2>MENU BAZAAR FKW 4</h2>
+          </div>
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Ayam_Goreng_whcagl.webp" alt="Paket Ayam Goreng">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Paket Ayam Goreng</h5>
+              </div>
+              <p>Ayam Goreng + Nasi + Lalapan + Tempe + Sambal + Buah + Minum (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+              </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494455/Ayam_Bakar_pb8vky.webp" alt="Paket Ayam Panggang">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Paket Ayam Panggang</h5>
+              </div>
+              <p>Ayam Panggang + Nasi + Lalapan + Tempe + Sambal + Buah + Minum (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494463/Dimsum_Mix_v7ymwt.webp" alt="Dimsum Mix">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Dimsum Mix</h5>
+              </div>
+              <p>3 Jenis Dimsum + Saos (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Chicken_Steak_tfunvr.webp" alt="Chicken Steak">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Chicken Steak</h5>
+              </div>
+              <p>Steak Ayam + Kentang + Sayur + Saos (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Rice_Bowl_Black_Pepper_dtsyqt.webp" alt="Paket Rice Bowl Black Pepper">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Paket Rice Bowl Black Pepper</h5>
+              </div>
+              <p>Nasi + Ayam Black Pepper + Telur + Minuman Fruit Tea (Bowl)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Rice_Bowl_Chili_Padi_rtjanm.webp" alt="Paket Rice Bowl Chili Padi">
+            <div class="details">
+              <div class="details-sub">
+                <h5 class=>Paket Rice Bowl Chili Padi</h5>
+              </div>
+              <p>Nasi + Ayam Chili Padi + Telur + Minuman Fruit Tea (Bowl)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494455/Ayam_Betutu_Baru_npoiob.webp" alt="Paket Ayam Betutu">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Paket Ayam Betutu</h5>
+              </div>
+              <p>Nasi + Ayam Betutu + Telur + Sate + Sayur + Buah + Aqua (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Mujair_Nyat-nyat_Baru_d2yahm.webp" alt="Mujair Nyat-Nyat">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Mujair Nyat-Nyat</h5>
+              </div>
+              <p>Nasi + Mujair + Sayur + Minuman (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-items">
+            <img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494455/Ayam_Goreng_Serundeng_Madura_dgltr5.webp" alt="Ayam Serundeng Madura">
+            <div class="details">
+              <div class="details-sub">
+                <h5>Ayam Goreng Serundeng Madura</h5>
+              </div>
+              <p>Nasi + Ayam + Tempe Tahu + Sambal + Minuman (Box)</p>
+              <div class="details-sub2">
+                <h4>Harga</h4>
+              </div>
+              <div class="details-sub3">
+                <h4 class="harga">Rp50K</h4>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
       </div>
