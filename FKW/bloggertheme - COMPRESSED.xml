@@ -1,0 +1,587 @@
+<style>
+  
+@import url('');#PopularPosts1,#footer,.page header,#comments,.post-share-buttons,h3.post-title,.bg-photo-container,.bg-photo-overlay,.centered-top-container,.collapsed-header .centered-top-placeholder .sidebar-container{display:none}.post-body{color:#000;margin:0;font-family:"Poppins",sans-serif;line-height:normal;font-size:16px;font:16px "Poppins",sans-serif}.post-body img{height:unset;object-fit:cover;max-width:none}.post-body h3{color:#000}footer h3{color:#fff}.Blog .blog-posts .post-outer-container .post-outer{padding-bottom:0}.Blog .blog-posts .post-outer-container,.centered-bottom{padding:0;background:#4e276a}.page_body .widget{margin-bottom:0}.page_body .centered{padding:0;max-width:unset}div.widget.Blog .blog-posts .post-outer-container{padding:0}}nav a:hover{color:#000}a:visited{color:#fff}.buttons,a.link-btn a:visited,footer a:visited{color:#fff}.post-body footer h3{color:#fff}.sidebar-container{display:none}body.item-view .centered-top{margin-bottom:5px;display:none}.page{height:0}.page_body{height:0;margin-left:0}.blogger-clickTrap.singleton-element{display:none}.article.post-outer-container,#Blog1{height:0}*{box-sizing:border-box;-webkit-tap-highlight-color:rgba(255,255,255,0)!important;-webkit-focus-ring-color:rgba(255,255,255,0)!important;outline:none!important}html{scroll-behavior:smooth}#pre-loader{background-size:10%;background:#4e276a url(https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/loader_jpigvg.svg) no-repeat center center;height:100vh;width:100%;position:fixed;z-index:9999}@font-face{font-family:MuaraRough;src:url(https://res.cloudinary.com/dcmo2r3d9/raw/upload/v1718001021/MUARA_ROUGH_DEMO_dg8ixp.ttf)}@keyframes transitionIn{from{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(-10deg);display:none}}body{margin:0;font-family:"Poppins",sans-serif;background:#4e276a}p{line-height:180%;font-size:18px}a{text-decoration:none;color:#fff}nav{position:fixed;top:30px;background:linear-gradient(90deg,rgba(255,255,255,0.9) 0,rgba(255,255,255,0.4) 100%);backdrop-filter:blur(10px);width:900px;left:50%;transform:translateX(-50%);display:flex;justify-content:space-between;align-items:center;padding:12px 32px;border-radius:24px;box-shadow:0 4px 50px -8px rgba(0,0,0,0.2);z-index:300}nav .logo{font-weight:bold;font-size:20px;color:#ffa200}nav .nav-items{display:flex;gap:30px}.nav-link:hover{color:#ddd}.custom-container{max-width:900px;margin-inline:auto}header.custom-header{display:block;height:105vh;min-height:600px;max-height:800px;background:linear-gradient(0deg,#000 0,#4e276a 100%)}header.custom-header .custom-container{display:flex;justify-content:space-between;align-items:center;height:100%}header.custom-header .left{max-width:700px}h1{font-size:65px;line-height:130%;margin:0;background:linear-gradient(90deg,#ffffff 0,#ffffff 100%);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text;font-family:MuaraRough,sans-serif;font-style:underline;text-decoration:underline white 3px;text-underline-position:under}header.custom-header .left p{background:linear-gradient(90deg,#fff 0,#fff 100%);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text;line-height:200%}.buttons{display:flex;gap:24px}#logoheader{display:none}header.custom-header .left img{display:block}.link-btn{color:#fff;display:flex;align-items:center;gap:16px;padding:8px 16px;border-radius:10px;border:3px white;border-style:solid;font-size:16px;width:210px}.link-btn:hover{color:white;background:rgba(255,255,255,0.2)}.link-btn .btn-icon img{height:36px;display:flex}.link-btn .btn-text div:first-child{text-transform:uppercase}.link-btn .btn-text div:last-child{font-weight:bold}.btn-icon{display:flex;width:36px;height:36px}header.custom-header .right img{display:flex;height:450px}section{padding:30px 32px}section h2{color:#35174d;text-align:center;margin:0;margin-bottom:16px}#poto{background:linear-gradient(90deg,rgba(255,255,255,0.9) 0,rgba(255,255,255,0.4)) 100%;backdrop-filter:blur(10px);box-shadow:0 5px 55px -15px rgba(0,0,0,0.2);border-radius:10px;padding-top:30px;margin-top:-90px;-webkit-border-radius:10px;max-width:1100px;margin-inline:auto}#potoh{width:100%}#poto .pic{display:flex;gap:43px;justify-content:center;width:16%;max-width:1080px;margin:auto;filter:grayscale(100%);-webkit-filter:grayscale(100%)}.hp{display:none}#trabaju{padding-left:25px;padding-right:25px;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;max-width:1200px;margin:auto;margin-top:0;padding-bottom:30px}.transisi{width:60%;max-width:1280px}#transisi{width:100%;display:flex;pointer-events:none;padding-right:50px}.baju{width:40%;max-width:1080px}#baju{align-items:center;margin:auto;width:100%}#tentang-kami{margin-top:5px}#tentang-{padding-top:0}#tentang{align-items:center;display:grid;grid-template-columns:1fr 1fr 1fr;display:flex;max-width:1200px;margin:auto;padding-bottom:0}#tentang p{color:#fff;text-align:left;max-width:1100px;margin-inline:auto}#tentang .left{display:flex;height:450px}#tentang .right{line-height:200%;padding-left:50px}#galeri{padding-top:100px;width:90%;margin-inline:auto}#galeri h2{font-size:35px;margin-bottom:40px;background:linear-gradient(90deg,#ffb941 0,#ffb941 100%);background-clip:text;-webkit-text-fill-color:transparent;-webkit-background-clip:text}#galeri h4{font-size:16px;margin-bottom:5px;background:#fff;background-clip:text;-webkit-text-fill-color:transparent;-webkit-background-clip:text}.slider-wrapper{position:relative}.slider-wrapper .slide-button:hover{background:#dcdcdc}.slider-wrapper .slide-button{top:50%;position:absolute;height:40px;width:40px;color:#000;background:#fff;font-size:1.3rem;cursor:pointer;border-radius:50%;outline:0;border:0;border-color:white;transform:translateY(-50%)}.slider-wrapper .slide-button#prev-slide{left:-20px;display:none}.slider-wrapper .slide-button#next-slide{right:-20px}.slider-wrapper .album-list{display:grid;gap:18px;grid-template-columns:repeat(11,1fr);overflow-x:auto;font-size:0;scrollbar-width:none;margin-bottom:25px}.slider-wrapper .album-list::-webkit-scrollbar{display:none}.slider-wrapper .album-list .album-item{width:270px;height:180px;object-fit:cover}.slider-scrollbar{height:24px;width:100%;align-items:center;display:flex}.slider-scrollbar .scrollbar-track{height:2px;width:100%;background:#441c55;position:relative;border-radius:4px;-webkit-border-radius:4px}.slider-scrollbar:hover .scrollbar-track{height:4px}.slider-scrollbar .scrollbar-thumb{position:absolute;height:100%;width:50%;background:#fff;border-radius:inherit;-webkit-border-radius:inherit;cursor:grab}.slider-scrollbar .scrollbar-thumb:active{cursor:grabbing;height:6px;top:-1px}.slider-scrollbar .scrollbar-thumb::after{content:"";position:absolute;left:0;right:0;top:-10px;bottom:-10px}.slider-wrapper2{position:relative}.slider-wrapper2 .slide-button2:hover{background:#dcdcdc}.slider-wrapper2 .slide-button2{top:50%;position:absolute;height:40px;width:40px;color:#000;background:#fff;font-size:1.3rem;cursor:pointer;border-radius:50%;-webkit-border-radius:50%;outline:0;border:0;border-color:white;transform:translateY(-50%);-webkit-transform:translateY(-50%)}.slider-wrapper2 .slide-button2#prev-slide2{left:-20px;display:none}.slider-wrapper2 .slide-button2#next-slide2{right:-20px}.slider-wrapper2 .album-list2{display:grid;gap:18px;grid-template-columns:repeat(11,1fr);overflow-x:auto;font-size:0;scrollbar-width:none;margin-bottom:25px}.slider-wrapper2 .album-list2::-webkit-scrollbar{display:none}.slider-wrapper2 .album-list2 .album-item2{width:270px;height:180px;object-fit:cover}.slider-scrollbar2{height:24px;width:100%;align-items:center;display:flex}.slider-scrollbar2 .scrollbar-track2{height:2px;width:100%;background:#441c55;position:relative;border-radius:4px;-webkit-border-radius:4px}.slider-scrollbar2:hover .scrollbar-track2{height:4px}.slider-scrollbar2 .scrollbar-thumb2{position:absolute;height:100%;width:50%;background:#fff;border-radius:inherit;-webkit-border-radius:inherit;cursor:grab}.slider-scrollbar2 .scrollbar-thumb2:active{cursor:grabbing;height:6px;top:-1px}.slider-scrollbar2 .scrollbar-thumb2::after{content:"";position:absolute;left:0;right:0;top:-10px;bottom:-10px}#yt-video{margin:auto;height:157px;width:280px}#bazaar{max-width:1200px;margin:auto;width:100%}.heading-bazaar{margin-bottom:30px;padding-top:50px;padding-bottom:20px;grid-column:1/-1;text-align:center;font-size:20px;background:linear-gradient(90deg,#ffb941 0,#ffb941 100%);background-clip:text;-webkit-text-fill-color:transparent;-webkit-background-clip:text}#menu-bazaar{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));grid-gap:20px 30px;padding-bottom:100px;margin:auto}.groupbazaar{border:3px solid white;border-radius:15px;padding-bottom:30px}.groupbazaar>h2{color:white;margin-bottom:0;margin-top:20px}.food-items{display:grid;position:relative;grid-template-rows:auto 1fr;border-radius:15px;box-shadow:0 0 15px rgba(0,0,0,0.6);transition:.2s ease-in-out;width:85%;margin:auto;margin-top:25px}.food-items img{position:relative;width:100%;border-radius:15px 15px 0 0;cursor:pointer}.details{background:linear-gradient(180deg,rgba(255,255,255,0.4) 0,rgba(255,255,255,0.4) 100%);padding:15px 20px;grid-template-rows:auto 1fr 50px;grid-row-gap:15px;border-radius:0 0 15px 15px;-webkit-border-radius:0 0 15px 15px;-moz-border-radius:0 0 15px 15px;-ms-border-radius:0 0 15px 15px;-o-border-radius:0 0 15px 15px}.details-sub2{display:grid;grid-template-columns:auto auto;bottom:0;position:absolute;padding-top:30px}.details-sub3{display:grid;grid-template-columns:auto auto;bottom:0;right:0;position:absolute}.details-sub>h5{font-size:18px;margin:0;color:white}.details-sub2>h4{font-weight:300;font-size:15px;margin:0;color:white;margin-bottom:20px}.details-sub>h6{font-weight:300;font-size:15px;margin:0;color:white;margin-bottom:20px}.details-sub3>h4{font-weight:300;font-size:14px;margin:0;color:white;margin-bottom:20px;margin-right:20px}.details>p{color:#fff;font-size:15px;line-height:28px;font-weight:400;align-self:stretch;margin-bottom:40px;margin-top:5px}footer{background:linear-gradient(90deg,#000000 0,#000000 100%);color:#fff;padding-top:50px}footer a{color:#fff}footer p{padding-left:20px}footer .content{display:flex;justify-content:space-between}footer .left{margin-bottom:10px;width:25%;min-width:170px}footer .right{display:flex;gap:40px;align-items:center}footer h3{margin-top:0}footer ul{list-style:none;padding:0;margin-bottom:40px}footer ul li{margin:8px 0}footer a:hover{color:#ddd}#footerlogo{width:100%}footer .copyright{border-top:1px solid rgba(255,255,255,0.4);display:flex;align-items:center;justify-content:space-between;padding:20px 0}footer .socials{display:flex;gap:20px;padding-right:30px}footer .socials img{height:40px}nav .menu-icon,.mobile-nav-menu{display:none}@media screen and (max-width:600px) and (min-width:330px){section{padding-inline:0}nav .nav-items{display:none}nav{width:calc(100% - 30px)}nav .menu-icon{display:block;cursor:pointer}nav .menu-icon img{height:30px;display:flex}header.custom-header .custom-container{flex-direction:column}header.custom-header{max-height:fit-content;height:fit-content;padding-top:80px}#beranda{width:100%}header.custom-header .right img{display:none}#logoheader{width:90%;max-width:350px;min-width:300px}#logoheader{display:flex;margin:auto;margin-bottom:30px}.custom-container{padding:0 32px}h1{font-size:50px;text-align:center;padding-bottom:10px}p{text-align:justify;padding-bottom:10px;font-size:14px}header p{font-size:16px}footer li{font-size:14px}.buttons{max-width:90%;align-items:center;gap:20px;margin:auto}.link-btn{display:flex;gap:0;width:90%;align-items:center;margin:auto;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-ms-border-radius:15px;-o-border-radius:15px}.link-btn .btn-icon{height:40px;margin:auto}#textbtn{display:none}section h2{position:relative;margin-bottom:40px}section h2::after{content:"";position:absolute;background:#fff;width:30px;height:2px;bottom:0;left:50%;transform:translateX(-50%)}#poto{padding-top:20px;padding-bottom:20px;margin-top:0;border-radius:0;-webkit-border-radius:0}#poto .pic{gap:10px}.hp{display:flex}#hp2{margin:auto;width:80%;max-width:350px;margin-top:-40px}#trabaju{margin-left:auto;padding-left:0;align-items:center;padding-bottom:30px;max-width:90%;padding-right:0}#transisi{width:100%;margin:auto;align-items:center;padding-right:0}.transisi{width:100%;max-width:450px}.baju{width:100%;max-width:420px}#baju{width:100%}#tentang-{padding-top:0}#tentang{padding:30px;margin-top:-30px;align-items:baseline}#tentang p{text-align:justify}#tentang .left{display:none}#tentang .right{line-height:200%;padding-left:0}#galeri{padding-top:10px}.slider-wrapper .slide-button{display:none!important}.slider-wrapper .album-list{gap:10px;margin-bottom:15px}.slider-wrapper .album-list .album-item{width:270px;height:180px}.slider-scrollbar .scrollbar-thumb{width:20%}.slider-wrapper2 .slide-button2{display:none!important}.slider-wrapper2 .album-list2{gap:10px;margin-bottom:15px}.slider-wrapper2 .album-list2 .album-item2{width:270px;height:180px}.slider-scrollbar2 .scrollbar-thumb2{width:20%}.bg-element{position:absolute;height:1900px;left:-30px;right:-30px}footer .content{flex-direction:column}footer .left{margin:auto;width:70%;padding-top:20px;max-width:200px}#footerlogo{width:100%}footer .right{flex-direction:column;gap:40px;text-align:left;padding-top:30px;display:block}footer h3{margin-top:0;text-align:left}footer ul{list-style:none;padding:0;margin-bottom:10px}footer ul li{text-align:left;margin:8px 0}footer .copyright{text-align:center;flex-direction:column}footer p{text-align:left;padding-left:0}footer .socials{display:flex;gap:40px;padding-right:0}footer .socials img{height:40px}.mobile-nav-menu{position:fixed;right:20px;align-items:center;top:100px;background:rgba(255,255,255,0.4);backdrop-filter:blur(10px);display:flex;flex-direction:column;padding:8px 16px;gap:16px;font-size:16px;border-radius:10px;opacity:0;z-index:600;pointer-events:none;transform:translateY(-10px);transition:all 300ms ease}.mobile-nav-menu.active{opacity:1;pointer-events:auto;transform:translateY(0)}#pre-loader{background-size:5%;background:#4e276a url(https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/loader_jpigvg.svg) no-repeat center center;height:100%;width:100%;position:fixed;z-index:100}.heading-bazaar{-webkit-text-fill-color:#ffb941}#menu-bazaar{width:85%;margin:auto;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));grid-gap:20px 20px}.details-sub>h5{font-weight:510;font-size:17px}.details-sub2>h4{font-weight:300;font-size:13px;margin:0;color:white;margin-bottom:15px}.details-sub3>h4{font-weight:300;font-size:13px;margin:0;color:white;margin-bottom:15px;margin-right:20px}.details>p{color:#fff;font-size:14px;line-height:28px;font-weight:400;align-self:stretch;margin-bottom:30px;margin-top:5px}.heading-bazaar{padding-bottom:0;margin-bottom:0}#menu-bazaar{grid-gap:20px 1000px}}@media screen and (max-width:900px) and (min-width:600px){nav{width:90%;left:50%;display:flex}h1{font-size:55px;text-align:center;padding-bottom:10px}header.custom-header p{text-align:center}p{text-align:justify;font-size:18px;padding-bottom:10px}.buttons{align-items:center;margin:auto}#textbtn{margin:auto}.link-btn{height:50px;display:inline;text-align:center;align-content:center;width:80%;margin:auto;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-ms-border-radius:15px;-o-border-radius:15px;font-size:18px}.link-btn .btn-icon{height:40px;display:none}header.custom-header .right img{display:none}#logoheader{width:70%}#logoheader{display:flex;margin:auto;margin-bottom:30px}header.custom-header .custom-container{flex-direction:column}header.custom-header{max-height:fit-content;height:fit-content;padding-top:80px}#beranda{width:100%}#poto{padding-top:20px;padding-bottom:20px;margin-top:0;border-radius:0;-webkit-border-radius:0}#poto .pic{gap:33px}.hp{display:flex}#hp2{margin:auto;width:50%;max-width:450px;min-width:350px;margin-top:-40px}#tentang-{padding-top:0}#tentang{padding:30px;margin-top:-30px;align-items:baseline}#tentang p{text-align:justify}#tentang .left{display:none}#tentang .right{line-height:200%;padding-left:0}#galeri{padding-top:10px;width:auto}.slider-wrapper .slide-button{display:none!important}.slider-wrapper .album-list{gap:20px;margin-bottom:15px}.slider-wrapper .album-list .album-item{width:270px;height:180px}.slider-scrollbar .scrollbar-thumb{width:20%}.slider-wrapper2 .slide-button2{display:none!important}.slider-wrapper2 .album-list2{gap:20px;margin-bottom:15px}.slider-wrapper2 .album-list2 .album-item2{width:270px;height:180px}.slider-scrollbar2 .scrollbar-thumb2{width:20%}.food-items{width:90%}section#menu-bazaar{grid-gap:20px 20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));padding-bottom:50px}.heading-bazaar{margin-bottom:0}}@media(max-width:330px){section{padding-inline:0}nav .nav-items{display:none}nav{width:calc(100% - 30px)}nav .menu-icon{display:block;cursor:pointer}nav .menu-icon img{height:30px;display:flex}header.custom-header .custom-container{flex-direction:column}header.custom-header{max-height:fit-content;height:fit-content;padding-top:80px}#beranda{width:100%}header.custom-header .right img{display:none}#logoheader{width:90%;max-width:350px}#logoheader{display:flex;margin:auto;margin-bottom:30px}.custom-container{padding:0 32px}h1{font-size:50px;text-align:center;padding-bottom:10px}p{text-align:justify;padding-bottom:10px;font-size:14px}header p{font-size:16px}footer li{font-size:14px}.buttons{max-width:90%;align-items:center;gap:20px;margin:auto}.link-btn{display:flex;gap:0;width:90%;align-items:center;margin:auto;border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;-ms-border-radius:15px;-o-border-radius:15px}.link-btn .btn-icon{height:40px;margin:auto}#textbtn{display:none}section h2{position:relative;margin-bottom:40px}section h2::after{content:"";position:absolute;background:#fff;width:30px;height:2px;bottom:0;left:50%;transform:translateX(-50%)}#poto{padding-top:20px;padding-bottom:20px;margin-top:0;border-radius:0;-webkit-border-radius:0}#poto .pic{gap:10px}.hp{display:flex}#hp2{margin:auto;width:80%;max-width:350px;margin-top:-40px}#trabaju{margin-left:auto;padding-left:0;align-items:center;padding-bottom:30px;max-width:90%;padding-right:0}#transisi{width:100%;margin:auto;align-items:center;padding-right:0}.transisi{width:100%;max-width:450px}.baju{width:100%;max-width:420px}#baju{width:100%}#tentang-{padding-top:0}#tentang{padding:30px;margin-top:-30px;align-items:baseline}#tentang p{text-align:justify}#tentang .left{display:none}#tentang .right{line-height:200%;padding-left:0}#galeri{padding-top:10px}.slider-wrapper .slide-button{display:none!important}.slider-wrapper .album-list{gap:10px;margin-bottom:15px}.slider-wrapper .album-list .album-item{width:270px;height:180px}.slider-scrollbar .scrollbar-thumb{width:20%}.slider-wrapper2 .slide-button2{display:none!important}.slider-wrapper2 .album-list2{gap:10px;margin-bottom:15px}.slider-wrapper2 .album-list2 .album-item2{width:270px;height:180px}.slider-scrollbar2 .scrollbar-thumb2{width:20%}.bg-element{position:absolute;height:1900px;left:-30px;right:-30px}footer .content{flex-direction:column}footer .left{margin:auto;width:70%;padding-top:20px;max-width:200px}#footerlogo{width:100%}footer .right{flex-direction:column;gap:40px;text-align:left;padding-top:30px;display:block}footer h3{margin-top:0;text-align:left}footer ul{list-style:none;padding:0;margin-bottom:10px}footer ul li{text-align:left;margin:8px 0}footer .copyright{text-align:center;flex-direction:column}footer p{text-align:left;padding-left:0}footer .socials{display:flex;gap:40px;padding-right:0}footer .socials img{height:40px}.mobile-nav-menu{position:fixed;right:20px;align-items:center;top:100px;background:rgba(255,255,255,0.4);backdrop-filter:blur(10px);display:flex;flex-direction:column;padding:8px 16px;gap:16px;font-size:16px;border-radius:10px;opacity:0;z-index:600;pointer-events:none;transform:translateY(-10px);transition:all 300ms ease}.mobile-nav-menu.active{opacity:1;pointer-events:auto;transform:translateY(0)}#pre-loader{background-size:5%;background:#4e276a url(https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/loader_jpigvg.svg) no-repeat center center;height:100%;width:100%;position:fixed;z-index:100}.heading-bazaar{-webkit-text-fill-color:#ffb941}#menu-bazaar{width:85%;margin:auto;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));grid-gap:20px 20px}.details-sub>h5{font-weight:510;font-size:17px}.details-sub2>h4{font-weight:300;font-size:13px;margin:0;color:white;margin-bottom:15px}.details-sub3>h4{font-weight:300;font-size:13px;margin:0;color:white;margin-bottom:15px;margin-right:20px}.details>p{color:#fff;font-size:14px;line-height:28px;font-weight:400;align-self:stretch;margin-bottom:30px;margin-top:5px}.heading-bazaar{padding-bottom:0;margin-bottom:0}header.custom-header .left{max-width:700px;margin:auto}
+  
+</style>
+
+
+<meta name="description" content="Festival Karma Wairagya merupakan festival yang dilaksanakan setahun sekali untuk 		memeriahkan HUT SMA Negeri 9 Denpasar">
+<meta name="keywords" content="FKW, Festival Karma Wairagya, SMA Negeri 9 Denpasar">
+<meta name="author" content="Satria Narayana">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link fetchpriority="high" rel="preload" as="image" href="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1720868979/FKWLogo500_sm57yx.png" type="image/webp">
+<!-- LOAD CSS -->
+<script type="text/javascript">//<![CDATA[
+(function() {
+    var css = document.createElement('link');
+    css.href = 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap';
+    css.rel = 'stylesheet';
+    css.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(css);
+})();
+//]]></script> 
+<script type="text/javascript">//<![CDATA[
+(function() {
+    var css = document.createElement('link');
+    css.href = 'https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0';
+    css.rel = 'stylesheet';
+    css.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(css);
+})();
+//]]></script> 
+<div id="pre-loader"></div>
+<nav>
+<a href="#" class="logo">FKW</a>
+<div class="nav-items">
+<a class="nav-link" href="#tentang-kami">About</a>
+<a class="nav-link" href="#galeri">Gallery</a>
+<a class="nav-link" href="#contact">Contact</a>
+</div>
+<div class="menu-icon">
+<img id="imgMenu" oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/menu-icon_pinipn.svg" alt="menu icon" />
+</div>
+</nav>
+<div class="mobile-nav-menu">
+<a class="nav-link" href="#tentang-kami">About</a>
+<a class="nav-link" href="#galeri">Gallery</a>
+<a class="nav-link" href="#contact">Contact</a>
+</div>
+<header class="custom-header">
+<div class="custom-container" id="beranda">
+<section>
+<div class="left">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1720868979/FKWLogo500_sm57yx.png" alt="Logo FKW" loading="eager" id="logoheader"/>
+<h1>Festival Karma Wairagya</h1>
+<p>
+Festival Karma Wairagya merupakan sebuah festival yang diadakan setiap tahun untuk memeriahkan hari ulang tahun SMA Negeri 9 Denpasar.
+</p>
+<div class="buttons">
+<a href="https://www.instagram.com/festivalkarmawairagya" target="_blank" class="link-btn" aria-label="Instagram">
+<div class="btn-icon">
+<img alt="Instagram" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/instagram-logo_pfiwzf.svg" alt="" />
+</div>
+<div class="btn-text">
+<div id="textbtn">Instagram</div>
+</div>
+</a>
+<a href="https://www.youtube.com/@festivalkarmawairagya" target="_blank" class="link-btn" aria-label="Youtube">
+<div class="btn-icon">
+<img alt="Youtube" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/youtube-logo_nxvwfj.svg" alt="" />
+</div>
+<div class="btn-text">
+<div id="textbtn">Youtube</div>
+</div>
+</a>
+</div>
+</div>
+</section>
+<div class="right">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719480246/FKWLogoA_t1s4lx.webp" alt="FKW Logo" loading="eager" id="headerlogo" />
+</div>
+</div>
+</header>
+<div id="tentang-">
+<section id="poto">
+<div class="content">
+<div class="pic">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737019/Foto1_klsiy7.webp" loading="lazy" id="potoh" alt="FotoFKW"/>
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737020/Foto2_l6k1za.webp" loading="lazy" id="potoh" alt="FotoFKW"/>
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/Foto3_tgac0l.webp" loading="lazy" id="potoh" alt="FotoFKW"/>
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/Foto4_pypgdd.webp" loading="lazy" id="potoh" alt="FotoFKW"/>
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/Foto5_jfkykt.webp" loading="lazy" id="potoh" alt="FotoFKW"/>
+</div>
+</div>
+</section>
+<section id="tentang-kami"></section>
+<div class="hp"><img oncontextmenu="return false" id="hp2"src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1720870071/FKWElemen_dkrcjj.png" alt="Elemen FKW"></div>
+<section id="tentang">
+<div class="left"><img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1720870071/FKWElemen_dkrcjj.png" alt="Elemen FKW"></div>
+<div class="right">
+<p>Festival Karma Wairagya (FKW) merupakan sebuah festival yang diadakan setiap tahun untuk memeriahkan hari ulang tahun SMA Negeri 9 Denpasar.
+Tujuan lain diadakannya festival ini yaitu untuk meningkatkan kemampuan siswa dan siswi untuk berkreativitas, melestarikan dan menonjolkan nilai
+nilai budaya, serta memberikan kesempatan menunjukkan bakat bagi siswa dan siswi SMA Negeri 9 Denpasar untuk menjadi penampil acara pada puncak
+acara Festival Karma Wairagya. Festival ini pertama kali dilaksanakan pada tahun 2022 untuk memeriahkan HUT SMA Negeri 9 Denpasar yang ke-2.
+Ditahun ini SMA Negeri 9 Denpasar akan menyelenggarakan Festival Karma Wairagya yang ke-4. Nama kegiatan "Festival Karma Wairagya" tercipta sesuai dengan motto SMA Negeri 9 Denpasar, yaitu Karma Wairagya, yang memiliki makna bekerja tanpa mengikatkan diri pada hasil.
+</p>
+</div>
+</section>
+<div id="trabaju">
+<div class="transisi"><video autoplay loop muted controls id="transisi" src="https://res.cloudinary.com/dcmo2r3d9/video/upload/v1717737830/transisi_ilso4z.mp4"></video></div>
+<div class="baju"><img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737020/desainbaju_x32f2v.webp" id="baju" loading="lazy" alt="Desain Baju FKW"></div>
+</div>
+<div id="galeri">
+<section id="gallery">
+<h2>GALLERY</h2>
+<h4>2022</h4>
+<div class="slider-wrapper">
+<button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+<div class="album-list">
+<video autoplay loop muted controls id="yt-video" src="https://res.cloudinary.com/dcmo2r3d9/video/upload/v1717737833/2022_ok3azm.mp4" alt="Video Festival Karma Wairagya 2022" class="album-item"></video>
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto1_qejxl4.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987198/2022Foto2_acs5ty.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987198/2022Foto3_lbtinu.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto4_xihgxl.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto5_sy6hqx.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto6_bql56y.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto7_wubqbz.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto8_cdvzeq.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987199/2022Foto9_dlr0jc.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717987200/2022Foto10_d6l1qw.webp" alt="Foto Festival Karma Wairagya 2022" class="album-item" loading="lazy">
+</div>
+<button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+</div>
+<div class="slider-scrollbar">
+<div class="scrollbar-track">
+<div class="scrollbar-thumb"></div>
+</div>
+</div>
+<h4>2023</h4>
+<div class="slider-wrapper2">
+<button id="prev-slide2" class="slide-button2 material-symbols-rounded">chevron_left</button>
+<div class="album-list2">
+<video autoplay loop muted controls id="yt-video" src="https://res.cloudinary.com/dcmo2r3d9/video/upload/v1718286021/Kilas_Balik_alqb1c.mp4" alt="Kilas Balik Festival Karma Wairagya 2023" class="album-item2"></video>
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989899/2023Foto1_po5c4w.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989899/2023Foto2_z5uf2h.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989899/2023Foto3_jfzofx.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989901/2023Foto4_z0g80z.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989901/2023Foto5_ys5rrq.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989899/2023Foto6_hrt9x2.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989901/2023Foto7_jkq3ur.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989900/2023Foto8_xagpjg.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989900/2023Foto9_l2e05v.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+<img src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717989909/2023Foto10_ljh2nh.webp" alt="Foto Festival Karma Wairagya 2023" class="album-item2" loading="lazy">
+</div>
+<button id="next-slide2" class="slide-button2 material-symbols-rounded">chevron_right</button>
+</div>
+<div class="slider-scrollbar2">
+<div class="scrollbar-track2">
+<div class="scrollbar-thumb2"></div>
+</div>
+</div>
+<h4>2024 (Coming Soon)</h4>
+</section>
+</div>
+<div id="bazaar">
+<section id="menu-bazaar">
+<div class="heading-bazaar">
+<h2>MENU BAZAAR FKW 4</h2>
+</div>
+<div class="groupbazaar">
+<h2>22 Juli</h2>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Ayam_Goreng_whcagl.webp" alt="Paket Ayam Goreng">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 1</h5>
+<h5>(Paket Ayam Goreng Aqua)</h5>
+<div class="details-sub4">
+</div>
+</div>
+<p>Ayam Goreng + Nasi + Lalapan + Tempe + Sambal + Buah + Minum (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494455/Ayam_Bakar_pb8vky.webp" alt="Paket Ayam Panggang">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 2</h5>
+<h5>(Paket Ayam Panggang Aqua)</h5>
+</div>
+<p>Ayam Panggang + Nasi + Lalapan + Tempe + Sambal + Buah + Minum (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494463/Dimsum_Mix_v7ymwt.webp" alt="Dimsum Mix">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 3</h5>
+<h5>(Dimsum Mix)</h5>
+</div>
+<p>3 Jenis Dimsum + Saos (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+</div>
+<div class="groupbazaar">
+<h2>23 Juli</h2>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Chicken_Steak_tfunvr.webp" alt="Chicken Steak">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 4</h5>
+<h5>(Chicken Steak)</h5>
+</div>
+<p>Steak Ayam + Kentang + Sayur + Saos (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Rice_Bowl_Black_Pepper_dtsyqt.webp" alt="Paket Rice Bowl Black Pepper">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 5</h5>
+<h5>(Paket Rice Bowl Black Pepper Fruit Tea)</h5>
+</div>
+<p>Nasi + Ayam Black Pepper + Telur + Minuman Fruit Tea (Bowl)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Rice_Bowl_Chili_Padi_rtjanm.webp" alt="Paket Rice Bowl Chili Padi">
+<div class="details">
+<div class="details-sub">
+<h5 class=>Paket 6</h5>
+<h5>(Paket Rice Bowl Chili Padi Fruit Tea)</h5>
+</div>
+<p>Nasi + Ayam Chili Padi + Telur + Minuman Fruit Tea (Bowl)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+</div>
+<div class="groupbazaar">
+<h2>24 Juli</h2>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494455/Ayam_Betutu_Baru_npoiob.webp" alt="Paket Ayam Betutu">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 7</h5>
+<h5>(Paket Ayam Betutu Aqua)</h5>
+</div>
+<p>Nasi + Ayam Betutu + Telur + Sate + Sayur + Buah + Aqua (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494456/Mujair_Nyat-nyat_Baru_d2yahm.webp" alt="Mujair Nyat-Nyat">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 8</h5>
+<h5>(Mujair Nyat-Nyat Minuman)</h5>
+</div>
+<p>Nasi + Mujair + Sayur + Minuman (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+<div class="food-items">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719494455/Ayam_Goreng_Serundeng_Madura_dgltr5.webp" alt="Ayam Serundeng Madura">
+<div class="details">
+<div class="details-sub">
+<h5>Paket 9</h5>
+<h5>(Ayam Goreng Serundeng Madura Minuman)</h5>
+</div>
+<p>Nasi + Ayam + Tempe Tahu + Sambal + Minuman (Box)</p>
+<div class="details-sub2">
+<h4>Harga</h4>
+</div>
+<div class="details-sub3">
+<h4 class="harga">Rp50K</h4>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<footer>
+<div id="contact" class="custom-container">
+<div class="content">
+<div class="left">
+<img oncontextmenu="return false" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/FKWLogo_gmqquv.webp" loading="lazy" id="footerlogo" alt="Logo FKW">
+</div>
+<div class="right">
+<div class="links">
+<h3>Quick Link</h3>
+<ul>
+<li>
+<a href="https://sman9denpasar.sch.id/" target="_blank">SMAN 9 Denpasar</a>
+</li>
+<li>
+<a href="https://www.privacypolicyonline.com/live.php?token=MxJkuS3JOytbM25uxq9Rsbn32a0EyS2j" target="_blank">Privacy Policy</a>
+</li>
+<li>
+<a href="https://www.privacypolicyonline.com/live.php?token=Hxcrg3ad2AscGNbIcXgs0q8G6bKq2JKN" target="_blank">Terms & Conditions</a>
+</li>
+</ul>
+</div>
+<div class="links">
+<h3>SMAN 9 DENPASAR</h3>
+<ul>
+<li>Jl. W.R Supratman No. 255</li>
+<li>Desa Kertalangu, Kesiman,</li>
+<li>Denpasar Timur, Bali, Indonesia. 80237</li>
+<li>smansia9dps@gmail.com</li>
+<li>admin@fkw9.my.id</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="copyright">
+<p>Powered by Tim Industri Digital FKW © 2024</p>
+<div class="socials">
+<a href="https://www.instagram.com/festivalkarmawairagya" target="_blank"><img alt="Instagram" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/instagram-logo_pfiwzf.svg"/></a>
+<a href="https://www.youtube.com/@festivalkarmawairagya" target="_blank"><img alt="Youtube" src="https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/youtube-logo_nxvwfj.svg"/></a>
+</div>
+</div>
+</div>
+</footer>
+
+    <script>
+      var loader = document.getElementById("pre-loader");
+      window.addEventListener("load", function(){
+          document.body.style.overflow = 'hidden';
+          loader.style.animation = "transitionIn 0.75s";
+          setTimeout(function(){
+            loader.style.display = "none";
+            document.body.style.overflow = '';
+          }, 750);
+        });
+    </script>
+
+    <script>
+      //Reset scroll top
+
+history.scrollRestoration = "manual";
+
+$(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+});
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
+        if(disclaimer) {
+            disclaimer.remove();
+        }
+    });
+</script>
+
+
+
+
+
+<script>
+  
+  /* 1 */
+const initSlider = () => {
+    const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
+    const sliderScrollbar = document.querySelector(".slider-scrollbar");
+    const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+    const imageList = document.querySelector(".slider-wrapper .album-list");
+    const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
+
+    // Handle scrollbar thumb drag
+    scrollbarThumb.addEventListener("mousedown", (e) => {
+        const startX = e.clientX;
+        const thumbPosition = scrollbarThumb.offsetLeft;
+        const maxThumbPosition = sliderScrollbar.getBoundingClientRect().width - scrollbarThumb.offsetWidth;
+
+        // Update thumb position on mouse move
+        const handleMouseMove = (e) => {
+            const deltaX = e.clientX - startX;
+            const newThumbPosition = thumbPosition + deltaX;
+
+            // Ensure the scrollbar thumb stays within bounds
+            const boundedPosition = Math.max(0, Math.min(maxThumbPosition, newThumbPosition));
+            const scrollPosition = (boundedPosition / maxThumbPosition) * maxScrollLeft;
+
+            scrollbarThumb.style.left = `${boundedPosition}px`;
+            imageList.scrollLeft = scrollPosition;
+        }
+
+        // Remove event listeners on mouse up
+        const handleMouseUp = () => {
+            document.removeEventListener("mousemove", handleMouseMove);
+            document.removeEventListener("mouseup", handleMouseUp);
+        }
+
+        // Add event listeners for drag interaction
+        document.addEventListener("mousemove", handleMouseMove);
+        document.addEventListener("mouseup", handleMouseUp);
+    });
+
+    // Slide images according to the slide button clicks
+    slideButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.id === "prev-slide" ? -1 : 1;
+            const scrollAmount = imageList.clientWidth * direction;
+            imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        });
+    });
+
+     // Show or hide slide buttons based on scroll position
+    const handleSlideButtons = () => {
+        slideButtons[0].style.display = imageList.scrollLeft <= 0 ? "none" : "block";
+        slideButtons[1].style.display = imageList.scrollLeft >= maxScrollLeft ? "none" : "block";
+    }
+
+    // Update scrollbar thumb position based on image scroll
+    const updateScrollThumbPosition = () => {
+        const scrollPosition = imageList.scrollLeft;
+        const thumbPosition = (scrollPosition / maxScrollLeft) * (sliderScrollbar.clientWidth - scrollbarThumb.offsetWidth);
+        scrollbarThumb.style.left = `${thumbPosition}px`;
+    }
+
+    // Call these two functions when image list scrolls
+    imageList.addEventListener("scroll", () => {
+        updateScrollThumbPosition();
+        handleSlideButtons();
+    });
+}
+
+window.addEventListener("resize", initSlider);
+window.addEventListener("load", initSlider);
+
+/* 2 */
+
+const initSlider2 = () => {
+    const slideButtons2 = document.querySelectorAll(".slider-wrapper2 .slide-button2");
+    const sliderScrollbar2 = document.querySelector(".slider-scrollbar2");
+    const scrollabrThumb2 = sliderScrollbar2.querySelector(".scrollbar-thumb2");
+    const imageList2 = document.querySelector(".slider-wrapper2 .album-list2");
+    const maxScrollLeft2 = imageList2.scrollWidth - imageList2.clientWidth;
+
+    // Handle scrollbar thumb drag
+    scrollabrThumb2.addEventListener("mousedown", (e) => {
+        const startX2 = e.clientX;
+        const thumbPosition2 = scrollabrThumb2.offsetLeft;
+        const maxThumbPosition2 = sliderScrollbar2.getBoundingClientRect().width - scrollabrThumb2.offsetWidth;
+
+        // Update thumb position on mouse move
+        const handleMouseMove2 = (e) => {
+            const deltaX2 = e.clientX - startX2;
+            const newThumbPosition2 = thumbPosition2 + deltaX2;
+
+            // Ensure the scrollbar thumb stays within bounds
+            const boundedPosition2 = Math.max(0, Math.min(maxThumbPosition2, newThumbPosition2));
+            const scrollPosition2 = (boundedPosition2 / maxThumbPosition2) * maxScrollLeft2;
+
+            scrollabrThumb2.style.left = `${boundedPosition2}px`;
+            imageList2.scrollLeft = scrollPosition2;
+        }
+
+        // Remove event listeners on mouse up
+        const handleMouseUp2 = () => {
+            document.removeEventListener("mousemove", handleMouseMove2);
+            document.removeEventListener("mouseup", handleMouseUp2);
+        }
+
+        // Add event listeners for drag interaction
+        document.addEventListener("mousemove", handleMouseMove2);
+        document.addEventListener("mouseup", handleMouseUp2);
+    });
+
+    // Slide images according to the slide button clicks
+    slideButtons2.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction2 = button.id === "prev-slide2" ? -1 : 1;
+            const scrollAmount2 = imageList2.clientWidth * direction2;
+            imageList2.scrollBy({ left: scrollAmount2, behavior: "smooth" });
+        });
+    });
+
+     // Show or hide slide buttons based on scroll position
+    const handleslideButtons2 = () => {
+        slideButtons2[0].style.display = imageList2.scrollLeft <= 0 ? "none" : "block";
+        slideButtons2[1].style.display = imageList2.scrollLeft >= maxScrollLeft2 ? "none" : "block";
+    }
+
+    // Update scrollbar thumb position based on image scroll
+    const updateScrollThumbPosition2 = () => {
+        const scrollPosition2 = imageList2.scrollLeft;
+        const thumbPosition2 = (scrollPosition2 / maxScrollLeft2) * (sliderScrollbar2.clientWidth - scrollabrThumb2.offsetWidth);
+        scrollabrThumb2.style.left = `${thumbPosition2}px`;
+    }
+
+    // Call these two functions when image list scrolls
+    imageList2.addEventListener("scroll", () => {
+        updateScrollThumbPosition2();
+        handleslideButtons2();
+    });
+}
+
+window.addEventListener("resize", initSlider2);
+window.addEventListener("load", initSlider2);
+ 
+  
+</script>
+
+<script>
+
+const menuIcon = document.querySelector(".menu-icon");
+const mobileNavMenu = document.querySelector(".mobile-nav-menu");
+const navLinks = document.querySelectorAll(".nav-link");
+const imgMenu = document.getElementById("imgMenu")
+
+let toggle = true;
+menuIcon.addEventListener("click", () => {
+  mobileNavMenu.classList.toggle("active");
+  toggle = !toggle;
+  if(toggle){
+  imgMenu.src = "https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/menu-icon_pinipn.svg";
+  }else{
+  imgMenu.src = "https://res.cloudinary.com/dcmo2r3d9/image/upload/v1719563465/close-md-svgrepo-com_f6wozy.svg";}
+  });
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const targetId = link.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      const offset = targetElement.offsetTop - 60;
+      window.scrollTo({ top: offset });
+    }
+    
+    mobileNavMenu.classList.remove("active");
+    imgMenu.src = "https://res.cloudinary.com/dcmo2r3d9/image/upload/v1717737021/menu-icon_pinipn.svg";
+    toggle = true;
+  });
+});
+</script>
+
+<script src='/feeds/posts/summary?alt=json-in-script&callback=handleLatestPosts&max-results=2'></script>
